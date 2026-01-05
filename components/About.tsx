@@ -1,6 +1,7 @@
+"use client";
 import Image from 'next/image'
 import React from 'react'
-import { ABOUT, VEHICLES } from "@/constant";
+import { ABOUT, VEHICLES } from "@/constant"; // Updated constants for Qatar
 
 const About = () => {
   return (
@@ -8,16 +9,14 @@ const About = () => {
       <div className='flex flex-col gap-8 lg:flex-row pb-24'>
         {/* LEFT */}
         <div className='flex flex-1 flex-col items-start justify-center lg:order-1'>
-          <h1 className='bold-52 capitalize pb-4'>Join Us In Exploring The United Arab Emirates</h1>
-          <p className='text-gray-500'>Manzar Alsamaa tourism company is a business that specializes in
-            providing travel and tourism-related services to individuals, groups,
-            and organizations.
+          <h1 className='bold-52 capitalize pb-4'>Discover the Wonders of Qatar</h1>
+          <p className='text-gray-500'>
+            76 Adventure For Tourism Services Company offers exclusive travel experiences in Qatar, providing exceptional services to individuals, families, and groups.
           </p>
           <br />
-          <p className='text-gray-500'> These companies play a crucial role in facilitating
-            and organizing travel experiences for people who want to explore new
-            destinations, whether it's for leisure, business, adventure, or cultural
-            enrichment.</p>
+          <p className='text-gray-500'>
+            Our services help travelers explore Qatar’s unique destinations, from cultural landmarks and desert adventures to luxurious city experiences.
+          </p>
           <div className='flex flex-wrap mt-8'>
             {ABOUT.map((about) =>
               <AboutItem
@@ -28,12 +27,13 @@ const About = () => {
             )}
           </div>
         </div>
+
         {/* RIGHT */}
         <div className='flex flex-1 gap-4 lg:gap-8 lg:order-2'>
           <div>
             <Image
-              src='/abouta1.jpg'
-              alt='about'
+              src='/qatar3.jfif'
+              alt='Qatar sightseeing'
               height={444}
               width={333}
               className='w-auto rounded-lg border border-gray-100 mb-12'
@@ -41,8 +41,8 @@ const About = () => {
           </div>
           <div>
             <Image
-              src='/about2.jpg'
-              alt='about'
+              src='/qatar2.jfif'
+              alt='Qatar attractions'
               height={444}
               width={333}
               className='w-auto rounded-lg border border-gray-100 mb-12'
@@ -51,22 +51,22 @@ const About = () => {
         </div>
       </div>
 
-      {/* Second container */}
-
+      {/* Fleet Section */}
       <div className='flex flex-col gap-8 lg:flex-row'>
         {/* LEFT */}
         <div className='flex flex-1 flex-col items-start justify-center lg:order-2'>
-          <h1 className='bold-52 capitalize pb-4'>Explore Our Fleet</h1>
-          <p className='text-gray-500'>With more than 6, new model HIGH ROOF’s 15 seater cars
-            MANZAR AL SAMAA have a Significant role in Tourism
-            Industry.
+          <h1 className='bold-52 capitalize pb-4'>Our Premium Fleet</h1>
+          <p className='text-gray-500'>
+            Travel Qatar in comfort with our modern 15-seater high-roof vehicles and premium SUVs.
           </p>
           <br />
-          <p className='text-gray-500'>Experience the allure of travel in our fleet of premium 7-seater SUVs,With over 15 luxurious options to choose from, these vehicles play a pivotal role in enhancing your journey through the landscapes of the tourism industry. Explore destinations with comfort, style, and convenience, ensuring every adventure is both memorable and seamless..
+          <p className='text-gray-500'>
+            With over 15 luxurious vehicles, including 7-seater SUVs and Land Cruisers, our fleet ensures every journey is stylish, safe, and memorable.
           </p>
           <br />
-          <p className='text-gray-500'> With 5 Land Cruisers and 7 Nissan Petrol MANZAR AL
-SAMAA have a Significant role in Tourism Industry</p>
+          <p className='text-gray-500'>
+            Explore Qatar’s cities, deserts, and coastal destinations with ease and convenience in our well-maintained fleet.
+          </p>
           <div className='flex flex-wrap mt-8'>
             {VEHICLES.map((vehicle) =>
               <VehicleItem
@@ -77,12 +77,13 @@ SAMAA have a Significant role in Tourism Industry</p>
             )}
           </div>
         </div>
+
         {/* RIGHT */}
         <div className='flex flex-1 gap-4 lg:gap-8 lg:order-1'>
           <div>
             <Image
-              src='/suv1.jpg'
-              alt='about'
+              src='/lc1.jfif'
+              alt='Qatar SUV'
               height={444}
               width={333}
               className='w-auto rounded-lg border border-gray-100 mb-12'
@@ -90,8 +91,8 @@ SAMAA have a Significant role in Tourism Industry</p>
           </div>
           <div>
             <Image
-              src='/suv2.jpg'
-              alt='about'
+              src='/lc2.jpg'
+              alt='Qatar SUV'
               height={444}
               width={333}
               className='w-auto rounded-lg border border-gray-100 mb-12'
@@ -102,12 +103,13 @@ SAMAA have a Significant role in Tourism Industry</p>
     </section>
   )
 }
-type AboutItem = {
+
+type AboutItemProps = {
   title: string,
   icon: string,
 }
 
-const AboutItem = ({ title, icon }: AboutItem) => {
+const AboutItem = ({ title, icon }: AboutItemProps) => {
   return (
     <div className='w-1/2 flex gap-2 mb-4'>
       <Image src={icon} alt='icon' height={20} width={20} />
@@ -115,12 +117,13 @@ const AboutItem = ({ title, icon }: AboutItem) => {
     </div>
   )
 }
-type VehicleItem = {
+
+type VehicleItemProps = {
   title: string,
   icon: string,
 }
 
-const VehicleItem = ({ title, icon }: VehicleItem) => {
+const VehicleItem = ({ title, icon }: VehicleItemProps) => {
   return (
     <div className='w-1/2 flex gap-2 mb-4'>
       <Image src={icon} alt='icon' height={20} width={20} />
@@ -128,4 +131,5 @@ const VehicleItem = ({ title, icon }: VehicleItem) => {
     </div>
   )
 }
+
 export default About

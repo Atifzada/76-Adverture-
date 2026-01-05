@@ -5,7 +5,7 @@ const CEOMessage = () => {
   return (
     <section className='max-container bg-slate-100'>
       <Head>
-        <title>CEO Message | Manzar Alsamaa Tourism</title>
+        <title>CEO Message | 76 Adventure For Tourism Services</title>
         <meta name="description" content="A message from our CEO, Asad Iqbal" />
       </Head>
 
@@ -45,14 +45,14 @@ const CEOMessage = () => {
               </p>
 
               <p className="regular-16 text-gray-30 leading-relaxed">
-                As we continue to explore new destinations and experiences, let's prioritize exceptional service, cultural sensitivity, and sustainability. Our goal is to create unforgettable memories for our clients while promoting responsible tourism practices.
+                As we continue to explore new destinations and experiences, let's prioritize exceptional service, cultural sensitivity, and sustainability. Our goal is to create unforgettable memories for our clients while promoting responsible tourism services.
                 Thank you for your dedication and passion.
               </p>
 
               <div className="pt-4 mt-6 border-t border-gray-20">
                 <p className="bold-18 text-green-90">Best regards,</p>
-                <p className="regular-16 text-gray-30">Asad Iqbal</p>
-                <p className="regular-16 text-gray-30">CEO, Manzar Alsamaa Tourism LLC</p>
+                <p className="regular-16 text-gray-30">Musawar Hayyat</p>
+                <p className="regular-16 text-gray-30">CEO, 76 Adventure For Tourism Services</p>
               </div>
             </div>
           </div>

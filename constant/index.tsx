@@ -32,55 +32,58 @@ export const CATEGORIES = [
 
 export const FEATURE = [
     {
-        title: "The Dubai Fountain",
+        title: "Museum of Islamic Art",
         URL: "/img1.jpg",
-        // des:"3 places"
-        des:"Choreographed to music, the Dubai Fountain shoots water as high as 500 feet –that’s as high as a 50-story building. Designed by creators of the Fountains of Bellagio in Vegas, Dubai Fountain Performances occur daily on the 30-acre Burj Khalifa Lake"
+        des: "An architectural masterpiece on Doha’s Corniche, the Museum of Islamic Art houses rare Islamic artifacts spanning 1,400 years. Its stunning waterfront location offers breathtaking views and a serene cultural experience."
     },
     {
-        title: "The Desert Safari",
-        URL: "/desert.jpg",
-        // des:"3 places",
-        des:"We're the Reliable Tour Operator in and around Dubai and the United Arab Emirates. We have many tours available such as: Desert Safari Tours, Buggy / Quad Bike Tours, Dubai / Abu Dhabi City Tour and many more. Contact us now for your booking.",
+        title: "Desert Safari in Khor Al Adaid",
+        URL: "/desert2.jpg",
+        des: "Experience Qatar’s mesmerizing Inland Sea with dune bashing, camel rides, and traditional Bedouin camps. Khor Al Adaid is a unique natural wonder where desert meets the sea."
+    },
+     {
+        title: "Lusail City",
+        URL: "/lusail.jpg",
+        des: "A modern, futuristic city in Qatar with stunning architecture, entertainment zones, shopping districts, and waterfront promenades. Lusail is perfect for leisure, nightlife, and exploring Qatar’s urban innovation."
     },
     {
-        title: "The Dubai Mall",
-        URL: "/dubaimall.jpg",
-        // des:"3 places",
-        des:"This downtown mall is known for luxury stores like Cartier and Harry Winston. It also has an aquarium, ice rink, and 360-degree views of the city from the world’s tallest building, The Burj Khalifa, making it a haven for both shoppers and sightseers alike.",
+        title: "Doha Corniche",
+        URL: "/corniche.jpg",
+        des: "A scenic waterfront promenade stretching along Doha Bay, ideal for walking, jogging, or enjoying breathtaking views of the skyline. The Corniche hosts events, festivals, and provides a relaxing escape in the heart of the city."
     },
     {
-        title: "Burj Al Arab",
-        URL: "/alarab.jpg",
-        // des:"3 places",
-        des:"One of the tallest hotels in the world, the unique white sail shape of this luxury hotel on Jumeirah Beach is iconic to Dubai's skyline, drawing admiration from visitors worldwide, and offering unparalleled views of the Arabian Gulf.",
+        title: "Souq Waqif",
+        URL: "/souq-waqif.jpg",
+        des: "Immerse yourself in Qatar’s vibrant heritage at Souq Waqif, a traditional marketplace filled with spices, textiles, handicrafts, and local cuisine. Evening performances and cafes create an unforgettable cultural ambiance."
     },
     {
-        title: "Ski Dubai",
-        URL: "/ski-dubai.jpg",
-        // des:"3 places",
-        des:"Ski Dubai boasts the world's third largest indoor ski slope with 6,000 tons of snow, offering skiing, freestyle zones, and an intimate encounter with Snow Penguins. Enjoy the March of the Penguins within the Snow Park area.",
+        title: "The Pearl-Qatar",
+        URL: "/the-pearl.jfif",
+        des: "A luxurious man-made island featuring upscale shops, cafes, and marinas. The Pearl-Qatar blends Mediterranean-inspired architecture with scenic waterfront walks, perfect for leisure and shopping."
     },
     {
-        title: "Dubai Miracle Garden",
-        URL: "/dubai-miracle-garden.jpg",
-        // des:"3 places",
-        des:"Miracle Garden is a distinctive outdoor destination, offering top-notch amenities like parking, seating, prayer rooms, toilets, security, and facilities for handicapped visitors. Retail and commercial kiosks further enhance the visitor experience.",
+        title: "Katara Cultural Village",
+        URL: "/katara.jfif",
+        des: "A hub for arts and culture, Katara Cultural Village hosts art galleries, theaters, workshops, and festivals. Visitors can explore Qatar’s rich cultural heritage while enjoying modern entertainment."
     },
     {
-        title: "Dubai Aquarium & Zoo",
-        URL: "/dubai-aquarium-underwater.jpg",
-        // des:"3 places",
-        des:"Dubai Aquarium & Underwater Zoo offers an immersive experience with one of the world's largest indoor aquariums and a diverse range of marine life. The Underwater Zoo features penguins, piranhas, King Croc, and much more",
+        title: "Aspire Park",
+        URL: "/aspire-park.webp",
+        des: "Doha’s largest park offers lush greenery, jogging tracks, playgrounds, and a lake. Aspire Park is ideal for families, fitness enthusiasts, and anyone seeking a peaceful outdoor retreat."
     },
     {
-        title: "Global Village",
-        URL: "/global-village1.jpg",
-        // des:"3 places",
-        des:"Global Village in Dubai showcases over 90 cultures through crafts, cuisine, and performances in themed pavilions. Open October to April, it features music acts, rides, and thinner crowds in the early evening. Entry tickets required.",
+        title: "National Museum of Qatar",
+        URL: "/national-museum.jpg",
+        des: "Designed by Jean Nouvel, the museum is inspired by the desert rose. Explore Qatar’s history, culture, and traditions through immersive exhibitions and interactive installations."
     },
-
+    {
+        title: "Villaggio Mall",
+        URL: "/villaggio-mall.jpg",
+        des: "A Venetian-themed shopping mall in Doha featuring luxury brands, indoor canals, entertainment zones, and fine dining. Perfect for shopping, family fun, and leisure activities."
+    },
+    
 ];
+
 
 // ABOUT Section
 export const ABOUT = [
@@ -92,6 +95,7 @@ export const ABOUT = [
         title: 'Luxuaries Hotels',
         icon: '/checkbox.svg',
     },
+       
     {
         title: 'Travel Guide',
         icon: '/checkbox.svg',
@@ -145,121 +149,151 @@ export const FOOTER_LINKS =[
 export const FOOTER_CONTACT_INFO = {
     title: "Contact US",
     links: [
-        { label:"Contact Number", value:"+971529042161" },
-        { label:"Email Address", value:"mazar.alsamaa23@gmail.com" },
+        { label:"Contact Number", value:"+97450089016" },
+        { label:"Email Address", value:"info@76adventuretours.com" },
     ],
 };
 export const SOCIALS = {
     title:"Social Media",
     links: [
-        { icon: "/facebook.svg", url: "https://www.facebook.com/share/1AEe8mEveA/" },
-        { icon: "/instagram.svg", url: "https://www.facebook.com/share/1AEe8mEveA/" },
-        { icon: "/twitter.svg", url: "https://www.facebook.com/share/1AEe8mEveA/" },
-        { icon: "/linkedin.svg", url: "https://www.facebook.com/share/1AEe8mEveA/" },
+        { icon: "/facebook.svg", url: "https://www.facebook.com/share/17uBj6vWbA/?mibextid=wwXIfr" },
+        { icon: "/instagram.svg", url: "https://www.instagram.com/76adventure_tour?igsh=MWFqdXozdXI1OXVnYQ%3D%3D&utm_source=qr" },
+        // { icon: "/twitter.svg", url: "https://www.facebook.com/share/1AEe8mEveA/" },
+        { icon: "/tiktok.svg", url: "https://www.tiktok.com/share/1AEe8mEveA/" },
       ],
 };
 // PACKAGES
 
-export const PACKAGES7 = [
+// Safri adventure
+export const DESERT = [
     {
-        title: "Full Day Dubai",
-        price: "475 AED",
-        URL: "/pkg1-dubai-1.jpg",
-        des: "Discover Dubai's iconic landmarks in our full-day tour, covering Burj Khalifa, Dubai Mall, Palm Jumeirah, and traditional souks. Experience the perfect blend of modernity and Arabian heritage.",
-        duration: "10-12 Hrs"
+        title: "Desert Safari Adventure",
+        price: "120 USD",
+        URL: "/safri_adventure.jpg",
+        des: "Experience Qatar’s iconic desert safari with dune bashing, camel rides, sandboarding, scenic views, cultural moments, professional guides, and unforgettable adventures across golden dunes landscapes.",
+        duration: "04 Hrs"
     },
     {
-        title: "Full Day Sharjah",
-        price: "500 AED",
-        URL: "/pkg1-sharjah.jpeg",
-        des: "Explore Sharjah's cultural treasures including the Sharjah Museum of Islamic Civilization, Blue Souk, and Al Noor Island. A journey through the UAE's artistic and historical heart.",
-        duration: "10-12 Hrs"
+        title: "Camel Safari Adventure in the Desert with Pickup & Drop-off in Doha",
+        price: "120 USD",
+        URL: "/camel_safri.jpeg",
+        des: "Enjoy a traditional camel journey through Qatar’s desert featuring gentle rides, peaceful dunes, cultural insights, expert guides, scenic photography stops, and authentic Bedouin hospitality.",
+        duration: "01 Hrs"
     },
     {
-        title: "Half Day Dubai",
-        price: "350 AED",
+        title: "Half-Day Desert Safari with Sandboarding & Camel Ride Adventure",
+        price: "125 USD",
         URL: "/pkg-dubai01.jpg",
-        des: "Perfect for time-conscious travelers, this half-day tour covers Dubai's highlights including Jumeirah Mosque, Burj Al Arab photo stop, and Madinat Jumeirah's traditional marketplace.",
-        duration: "05 Hrs"
+        des: "Discover an exciting half day desert experience with dune bashing, sandboarding, camel rides, stunning landscapes, skilled drivers, cultural encounters, and memorable adventure moments included.",
+        duration: "04 Hrs"
     },
     {
-        title: "Half Day Sharjah",
-        price: "330 AED",
+        title: "Desert Sunrise, Adventure Dune Bashing, Camel Ride & Sandboarding",
+        price: "125 USD",
         URL: "/pkg-sharjah002.jpg",
-        des: "A condensed cultural experience featuring Sharjah's most famous landmarks including the Sharjah Art Museum and the picturesque Al Qasba waterfront district.",
-        duration: "05 Hrs"
+        des: "Start your morning with a sunrise desert adventure offering early dune bashing, camel rides, sandboarding, calm scenery, soft light, expert guidance, and serene exploration.",
+        duration: "04 Hrs"
     },
     {
-        title: "Full Day AUH",
-        price: "575 AED",
+        title: "Premium Safari",
+        price: "125 USD",
         URL: "/pkg-auh.jpg",
-        des: "Immerse yourself in Abu Dhabi's grandeur with visits to Sheikh Zayed Grand Mosque, Louvre Abu Dhabi, and Yas Island's stunning attractions including Ferrari World.",
-        duration: "10-12 Hrs"
+        des: "Experience a premium desert safari near Doha featuring powerful dune bashing, camel rides, sandboarding, Inland Sea views, professional service, comfort, and unforgettable memories guaranteed.",
+        duration: "04 Hrs"
     },
-    {
-        title: "Full Day RAK",
-        price: "575 AED",
-        URL: "/pkg-rak.jpg",
-        des: "Experience Ras Al Khaimah's natural wonders from Jebel Jais mountains to the serene beaches, including visits to Dhayah Fort and the traditional pearl diving village.",
-        duration: "10-12 Hrs"
-    },
-    {
-        title: "Full Day Fujairah",
-        price: "675 AED",
-        URL: "/pkg-alfuj.jpg",
-        des: "Discover Fujairah's unique east coast charm with its historic forts, stunning waterfalls at Wadi Wurayah, and the beautiful Al Aqah beach with crystal-clear waters.",
-        duration: "10-12 Hrs"
-    },
-]
+];
 
-export const PACKAGES15 = [
+// City tour
+export const CITYTOUR = [
     {
-        title: "Full Day Dubai",
-        price: "600 AED",
-        URL: "/pkg1-dubai-1.jpg",
-        des: "Our premium Dubai tour for groups includes VIP access to At The Top Burj Khalifa, luxury dhow cruise dinner, and exclusive shopping experiences at Dubai's finest boutiques.",
-        duration: "10-12 Hrs"
+        title: "Discover Doha City Tour with Local Guide and Dhow Cruise",
+        price: "125 USD",
+        URL: "/doha_city.jpg",
+        des: "Explore Doha’s modern skyline and heritage with guided city highlights, cultural landmarks, Corniche views, dhow cruise experience, local insights, and comfortable transportation included.",
+        duration: "04 Hrs"
     },
     {
-        title: "Full Day Sharjah",
-        price: "650 AED",
-        URL: "/pkg1-sharjah.jpeg",
-        des: "An enhanced cultural journey through Sharjah featuring private museum tours, traditional Emirati lunch experience, and guided walkthrough of the Heart of Sharjah heritage area.",
-        duration: "10-12 Hrs"
+        title: "City Tour in Doha: Souq Waqif, Corniche, The Pearl, Katara",
+        price: "120 USD",
+        URL: "/city.avif",
+        des: "Visit Doha’s iconic attractions including Souq Waqif, Katara Cultural Village, The Pearl, Corniche promenade, photo stops, expert guidance, and relaxed sightseeing experience.",
+        duration: "04 Hrs"
     },
     {
-        title: "Half Day Dubai",
-        price: "400 AED",
-        URL: "/pkg-dubai01.jpg",
-        des: "Executive half-day experience including private transport to Dubai's most Instagram-worthy locations with professional photography stops and refreshments included.",
-        duration: "05 Hrs"
+        title: "Doha Night City Tour with Pickup from Doha Airport and Hotels",
+        price: "115 USD",
+        URL: "/doha_night.jpg",
+        des: "Experience Doha by night with illuminated landmarks, skyline views, Corniche drive, Souq Waqif atmosphere, guided commentary, hotel pickup, and smooth evening exploration.",
+        duration: "03 Hrs"
     },
     {
-        title: "Half Day Sharjah",
-        price: "400 AED",
-        URL: "/pkg-sharjah002.jpg",
-        des: "Premium cultural tour featuring behind-the-scenes access to Sharjah's art galleries and a private meeting with local artisans at the Calligraphy Museum.",
-        duration: "05 Hrs"
+        title: "Private Doha City Tour",
+        price: "115 USD",
+        URL: "/tour.avif",
+        des: "Enjoy a private Doha city tour with personalized itinerary, flexible timing, major landmarks, cultural attractions, comfortable transport, professional guide, and exclusive sightseeing experience.",
+        duration: "04 Hrs"
+    },
+];
+
+// NORTH QATAR tour
+// NORTH QATAR tour
+export const NORTHQATAR = [
+    {
+        title: "Doha North Qatar Tour Explore History and Heritage",
+        price: "130 USD",
+        URL: "/north_doha.jpg",
+        des: "Discover the rich history and heritage of North Qatar with a guided tour. Visit ancient landmarks, traditional villages, scenic Corniche views, and gain local insights while traveling comfortably through the city’s cultural highlights.",
+        duration: "04 Hrs"
     },
     {
-        title: "Full Day AUH",
-        price: "675 AED",
-        URL: "/pkg-auh.jpg",
-        des: "Luxury Abu Dhabi experience with private guide at Qasr Al Watan presidential palace, premium tickets to Louvre Abu Dhabi, and sunset drinks at Emirates Palace.",
-        duration: "10-12 Hrs"
+        title: "Full-Day Adventure Tour To The North & West with Doha Pickup",
+        price: "338 USD",
+        URL: "/north_west.jpg",
+        des: "Embark on a full-day adventure across North and West Qatar. Explore majestic desert landscapes, coastal views, and cultural sites, with professional guides, convenient Doha pickup, photo stops, and an immersive sightseeing experience.",
+        duration: "06-07 Hrs"
     },
     {
-        title: "Full Day RAK",
-        price: "675 AED",
-        URL: "/pkg-rak.jpg",
-        des: "Exclusive Ras Al Khaimah adventure including Jebel Jais zipline experience, private beach club access, and gourmet lunch at a mountain-view restaurant.",
-        duration: "10-12 Hrs"
+        title: "Explore the West Coast: Zekreet & Richard Serra Sculpture Tour",
+        price: "115 USD",
+        URL: "/zekreet.jpg",
+        des: "Experience Qatar’s stunning west coast with a tour to Zekreet and the iconic Richard Serra sculptures. Enjoy dramatic desert landscapes, unique rock formations, guided exploration, and unforgettable photography opportunities.",
+        duration: "04 Hrs"
+    },
+];
+
+// Combo Tours Packages
+// Combo Tours Packages
+export const COMBOTOUR = [
+    {
+        title: "Full-Day Doha City Tour and Desert Safari with Camel Ride Adventure",
+        price: "335 USD",
+        URL: "/combo1.jfif",
+        des: "Explore Doha’s landmarks including Souq Waqif, Katara, The Pearl, and Corniche, then enjoy a thrilling desert safari with dune bashing, camel rides, and sandboarding.",
+        duration: "06-08 Hrs"
     },
     {
-        title: "Full Day Fujairah",
-        price: "700 AED",
-        URL: "/pkg-alfuj.jpg",
-        des: "Ultimate east coast experience featuring private snorkeling trip to Snoopy Island, 4WD mountain safari, and seafood feast at a beachfront restaurant.",
-        duration: "10-12 Hrs"
+        title: "City Tour & Desert Safari: Camel Ride & Sandboarding Adventure",
+        price: "338 USD",
+        URL: "/combo2.jpeg",
+        des: "Combine Doha city exploration with desert adventure, featuring guided tours, camel rides, sandboarding, and thrilling dune experiences.",
+        duration: "07-08 Hrs"
     },
-]
+    {
+        title: "Full-Day North of Qatar with Pickup and Drop off from Doha",
+        price: "115 USD",
+        URL: "/zekreet.jpg",
+        des: "Discover North Qatar and Doha highlights, visit Zekreet sculptures, historic villages, and enjoy guided city exploration with convenient pickup and drop-off.",
+        duration: "04 Hrs"
+    },
+];
+
+// Combo Tours Packages
+export const SAFARIDINNER = [
+    {
+        title: "Desert Safari Adventure",
+        price: "120 USD",
+        URL: "/dinner.jpg",
+        des: "Enjoy an evening desert adventure with dune bashing, camel rides, and sandboarding, followed by a traditional BBQ dinner under the stars with live entertainment.",
+        duration: "04 Hrs"
+    },
+];

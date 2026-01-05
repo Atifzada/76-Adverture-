@@ -5,8 +5,8 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Manzar Alsamaa Tourism LLC",
-  description: "Tour and travel app",
+  title: "76 Advanture",
+  description: "For Tourism Services",
 };
 
 export default function RootLayout({

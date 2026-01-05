@@ -31,7 +31,7 @@ const Contact = () => {
           <p className="regular-16 text-gray-30 max-w-3xl mx-auto">
             Have questions about your next adventure? 
           </p>
-          <p>Our travel experts are here to help you plan the perfect trip.</p>
+          <p>We are here to help you plan the perfect trip.</p>
         </section>
 
         {/* Contact Grid */}
@@ -80,32 +80,24 @@ const Contact = () => {
             </div>
 
             <div className="mt-10">
-              <h3 className="bold-18 text-green-90 mb-4">Business Hours</h3>
-              <ul className="space-y-2">
-                <li className="flex justify-between regular-16">
-                  <span className="text-gray-30">Monday - Friday</span>
-                  <span className="text-green-70">8:00 AM - 5:00 PM</span>
-                </li>
-                {/* <li className="flex justify-between regular-16">
-                  <span className="text-gray-30">Saturday</span>
-                  <span className="text-green-70">10:00 AM - 4:00 PM</span>
-                </li> */}
-                <li className="flex justify-between regular-16">
-                  <span className="text-gray-30">Saturday & Sunday</span>
-                  <span className="text-green-70">Closed</span>
-                </li>
-              </ul>
-            </div>
+  <h3 className="bold-18 text-green-90 mb-4">Operating Hours</h3>
+  <ul className="space-y-2">
+    <li className="flex justify-between regular-16">
+      <span className="text-gray-30">We operate non-stop.</span>
+      <span className="text-green-70">At your Service 24/7</span>
+    </li>
+  </ul>
+</div>
           </div>
 
           {/* Map Section */}
           <div className="bg-gray-10 p-8 rounded-xl shadow-sm flex flex-col">
             <h2 className="bold-18 text-green-90 mb-6">Our Location</h2>
-            <p>Office 202-B3, Mohamed Hamed Saif Alrumhi Building</p>
-            <p>Dubai, United Arab Emirates</p>
+            {/* <p>Office 202-B3, Mohamed Hamed Saif Alrumhi Building</p>
+            <p>Doha, Qatar</p> */}
             <div className="flex-grow w-full h-full min-h-[400px] md:min-h-[500px]">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.1784656646447!2d55.27218771500928!3d25.19719798389671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43348a67e24b%3A0xff45e502e1ceb7e2!2sMohamed%20Hamed%20Saif%20Alrumhi%20Building!5e0!3m2!1sen!2sus!4v1620000000000!5m2!1sen!2sus"
+                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3607.683595930756!2d51.54728617484014!3d25.281227028293017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1sen!2ssa!4v1767627647746!5m2!1sen!2ssa" 
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
@@ -121,30 +113,31 @@ const Contact = () => {
         </div>
 
         {/* FAQ Section */}
-        <section>
-          <h2 className="bold-18 text-center text-green-90 mb-4">Frequently Asked Questions</h2>
-          <div className="space-y-4 text-center">
-            {[
-              {
-                question: "What are your office hours?",
-                answer: "Our office is open Monday to Friday from 8:00 AM to 5:00 PM, and Saturdays from 10:00 AM to 4:00 PM. We're closed on Sundays."
-              },
-              {
-                question: "How can I book a trip?",
-                answer: "You can book through our website, by calling our office, or by visiting us in person. Our travel experts are happy to assist you."
-              },
-              {
-                question: "Do you offer emergency contact while traveling?",
-                answer: "Yes, we provide 24/7 emergency support for all our travelers. You'll receive the emergency contact details with your travel documents."
-              }
-            ].map((faq, index) => (
-              <div key={index} className="bg-gray-10 p-6 rounded-lg">
-                <h3 className="bold-18 text-green-90 mb-2">{faq.question}</h3>
-                <p className="regular-16 text-gray-30">{faq.answer}</p>
-              </div>
-            ))}
-          </div>
-        </section>
+<section>
+  <h2 className="bold-18 text-center text-green-90 mb-4">Frequently Asked Questions</h2>
+  <div className="space-y-4 text-center">
+    {[
+      {
+        question: "What are your office hours?",
+        answer: "We operate 24/7 to assist you with bookings and inquiries anytime."
+      },
+      {
+        question: "How can I book a trip?",
+        answer: "You can book through our website, by calling our office, or visiting us in person. Our travel experts are always ready to assist."
+      },
+      {
+        question: "Do you offer emergency support while traveling?",
+        answer: "Yes, we provide 24/7 emergency support for all travelers. You will receive emergency contact details with your travel documents."
+      }
+    ].map((faq, index) => (
+      <div key={index} className="bg-gray-10 p-6 rounded-lg">
+        <h3 className="bold-18 text-green-90 mb-2">{faq.question}</h3>
+        <p className="regular-16 text-gray-30">{faq.answer}</p>
+      </div>
+    ))}
+  </div>
+</section>
+
       </main>
     </>
   );

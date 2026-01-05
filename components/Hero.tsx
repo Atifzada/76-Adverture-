@@ -11,10 +11,10 @@ type CategoryItemProps = {
 
 const CategoryItem = ({ title, icon }: CategoryItemProps) => {
   const categoryLinks: { [key: string]: string } = {
-    places: "https://www.tripadvisor.com/Attractions-g295424-Activities-Dubai_Emirate_of_Dubai.html",
-    restaurant: "https://www.tripadvisor.com/Restaurants-g295424-Dubai_Emirate_of_Dubai.html",
-    hotels: "https://www.tripadvisor.com/SmartDeals-g295424-Dubai_Emirate_of_Dubai-Hotel-Deals.html",
-    shopping: "https://www.tripadvisor.com/Attractions-g295424-Activities-c26-t143-Dubai_Emirate_of_Dubai.html"
+    places: "https://www.tripadvisor.com/Attractions-g294008-Activities-Qatar.html",
+    restaurant: "https://www.tripadvisor.com/Restaurants-g294008-Qatar.html",
+    hotels: "https://www.tripadvisor.com/SmartDeals-g294009-Doha-Hotel-Deals.html",
+    shopping: "https://www.tripadvisor.com/Attractions-g294008-Activities-c26-t143-Qatar.html"
   };
 
   return (
@@ -29,8 +29,9 @@ const Hero = () => {
   return (
     <section className='relative bg-hero bg-cover bg-center bg-no-repeat h-[100vh] w-full z-10 pb-12'>
       <div className='max-container padding-container relative top-28 sm:top-1/3 z-10'>
-        <h1 className='bold-64 sm:bold-64 text-white capitalize max-w-[36rem]'>Explore Dubai With Us</h1>
-        <p className='regular-16 text-white lg:w-1/2'>Welcome to <span className="text-2xl font-bold text-black">MANZAR ALSAMAA</span>, Your Gateway to Extraordinary Journeys in Dubai! Embark on unforgettable adventures, discover hidden gems, and immerse yourself in the vibrant culture of the City of Gold. Let us be your compass as you explore the wonders of Dubai with expert guidance and personalized experiences. Start your journey with us today!
+        <h1 className='bold-48 sm:bold-64 text-white capitalize max-w-[44rem]'>Explore Qatar With Us</h1>
+        <p className='regular-16 pt-8 text-white lg:w-3/4'>Welcome to <span className="text-3xl font-bold text-white">76 Adventure For Tousrim Services</span>, Your Gateway to Exceptional Experiences in Qatar!
+        Discover the perfect blend of tradition and modern luxury as you explore the heart of the Gulf. From iconic skylines and cultural         treasures to hidden gems and desert adventures, let us guide you through the true spirit of Qatar. Experience personalized journeys         crafted with local expertise, start your Qatar adventure with us today!
         </p>
         <div className='mt-8'>
           <Button
@@ -51,7 +52,7 @@ const Hero = () => {
             />
           ))}
         </ul>
-      </div>
+       </div>
     </section>
   );
 };

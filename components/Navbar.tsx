@@ -11,16 +11,17 @@ const Navbar = () => {
   const togglMenu = () => setMenuOpened(!menuOpened);
   return (
     <nav className='flexBetween max-container mt-3 px-12 z-30 py-2 shadow-xl bg-white rounded-full ring-1 ring-slate-100 fixed w-[95%] left-[50%] top-1 translate-x-[-50%]'>
-      <Link href='/' className='bold-28'>
-        <span>            <Image
-          src="/logo1.jpg"
-          alt="logo"
-          height={100}
-          width={70}
-          className="rounded-full overflow-hidden object-cover"
-
-        /></span>
-      </Link>
+<Link href="/" className="bold-28">
+  <span className="inline-flex w-12 h-12 overflow-hidden rounded-full">
+    <Image
+      src="/76logo.jfif"
+      alt="logo"
+      width={80}
+      height={80}
+      className="w-full h-full object-cover"
+    />
+  </span>
+</Link>
 
       {/* DESKTOP */}
 
