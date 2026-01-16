@@ -93,8 +93,7 @@ const Contact = () => {
           {/* Map Section */}
           <div className="bg-gray-10 p-8 rounded-xl shadow-sm flex flex-col">
             <h2 className="bold-18 text-green-90 mb-6">Our Location</h2>
-            {/* <p>Office 202-B3, Mohamed Hamed Saif Alrumhi Building</p>
-            <p>Doha, Qatar</p> */}
+            <p>Office no 302 Umm Ghuwailina, zone 27, Street No 950, Building No 12, 3rd floor</p>
             <div className="flex-grow w-full h-full min-h-[400px] md:min-h-[500px]">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3607.683595930756!2d51.54728617484014!3d25.281227028293017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1sen!2ssa!4v1767627647746!5m2!1sen!2ssa" 

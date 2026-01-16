@@ -192,7 +192,7 @@ export const DESERT = [
         price: "125 USD",
         URL: "/pkg-sharjah002.jpg",
         des: "Start your morning with a sunrise desert adventure offering early dune bashing, camel rides, sandboarding, calm scenery, soft light, expert guidance, and serene exploration.",
-        duration: "04 Hrs"
+        duration: "04-05 Hrs"
     },
     {
         title: "Premium Safari",
