@@ -58,12 +58,12 @@ export const FEATURE = [
     },
     {
         title: "The Pearl-Qatar",
-        URL: "/the-pearl.jfif",
+        URL: "/the-pearl.png",
         des: "A luxurious man-made island featuring upscale shops, cafes, and marinas. The Pearl-Qatar blends Mediterranean-inspired architecture with scenic waterfront walks, perfect for leisure and shopping."
     },
     {
         title: "Katara Cultural Village",
-        URL: "/katara.jfif",
+        URL: "/katara.png",
         des: "A hub for arts and culture, Katara Cultural Village hosts art galleries, theaters, workshops, and festivals. Visitors can explore Qatar’s rich cultural heritage while enjoying modern entertainment."
     },
     {
@@ -267,7 +267,7 @@ export const COMBOTOUR = [
     {
         title: "Full-Day Doha City Tour and Desert Safari with Camel Ride Adventure",
         price: "335 USD",
-        URL: "/combo1.jfif",
+        URL: "/combo1.png",
         des: "Explore Doha’s landmarks including Souq Waqif, Katara, The Pearl, and Corniche, then enjoy a thrilling desert safari with dune bashing, camel rides, and sandboarding.",
         duration: "06-08 Hrs"
     },
@@ -291,7 +291,7 @@ export const COMBOTOUR = [
 export const SAFARIDINNER = [
     {
         title: "Desert Safari Adventure",
-        price: "120 USD",
+        price: "150 USD",
         URL: "/dinner.jpg",
         des: "Enjoy an evening desert adventure with dune bashing, camel rides, and sandboarding, followed by a traditional BBQ dinner under the stars with live entertainment.",
         duration: "04-05 Hrs"

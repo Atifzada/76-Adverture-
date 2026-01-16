@@ -32,7 +32,7 @@ const About = () => {
         <div className='flex flex-1 gap-4 lg:gap-8 lg:order-2'>
           <div>
             <Image
-              src='/qatar3.jfif'
+              src='/qatar3.png'
               alt='Qatar sightseeing'
               height={444}
               width={333}
@@ -41,7 +41,7 @@ const About = () => {
           </div>
           <div>
             <Image
-              src='/qatar2.jfif'
+              src='/qatar2.png'
               alt='Qatar attractions'
               height={444}
               width={333}
@@ -82,7 +82,7 @@ const About = () => {
         <div className='flex flex-1 gap-4 lg:gap-8 lg:order-1'>
           <div>
             <Image
-              src='/lc1.jfif'
+              src='/lc1.png'
               alt='Qatar SUV'
               height={444}
               width={333}

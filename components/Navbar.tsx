@@ -14,7 +14,7 @@ const Navbar = () => {
 <Link href="/" className="bold-28">
   <span className="inline-flex w-12 h-12 overflow-hidden rounded-full">
     <Image
-      src="/76logo.jfif"
+      src="/76logo.png"
       alt="logo"
       width={80}
       height={80}
