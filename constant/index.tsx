@@ -171,21 +171,21 @@ export const DESERT = [
         price: "120 USD",
         URL: "/safri_adventure.jpg",
         des: "Experience Qatar’s iconic desert safari with dune bashing, camel rides, sandboarding, scenic views, cultural moments, professional guides, and unforgettable adventures across golden dunes landscapes.",
-        duration: "04 Hrs"
+        duration: "04-05 Hrs"
     },
     {
         title: "Camel Safari Adventure in the Desert with Pickup & Drop-off in Doha",
         price: "120 USD",
         URL: "/camel_safri.jpeg",
         des: "Enjoy a traditional camel journey through Qatar’s desert featuring gentle rides, peaceful dunes, cultural insights, expert guides, scenic photography stops, and authentic Bedouin hospitality.",
-        duration: "01 Hrs"
+        duration: "04-05 Hrs"
     },
     {
         title: "Half-Day Desert Safari with Sandboarding & Camel Ride Adventure",
         price: "125 USD",
         URL: "/pkg-dubai01.jpg",
         des: "Discover an exciting half day desert experience with dune bashing, sandboarding, camel rides, stunning landscapes, skilled drivers, cultural encounters, and memorable adventure moments included.",
-        duration: "04 Hrs"
+        duration: "04-05 Hrs"
     },
     {
         title: "Desert Sunrise, Adventure Dune Bashing, Camel Ride & Sandboarding",
@@ -199,7 +199,7 @@ export const DESERT = [
         price: "125 USD",
         URL: "/pkg-auh.jpg",
         des: "Experience a premium desert safari near Doha featuring powerful dune bashing, camel rides, sandboarding, Inland Sea views, professional service, comfort, and unforgettable memories guaranteed.",
-        duration: "04 Hrs"
+        duration: "04-05 Hrs"
     },
 ];
 
@@ -210,28 +210,28 @@ export const CITYTOUR = [
         price: "125 USD",
         URL: "/doha_city.jpg",
         des: "Explore Doha’s modern skyline and heritage with guided city highlights, cultural landmarks, Corniche views, dhow cruise experience, local insights, and comfortable transportation included.",
-        duration: "04 Hrs"
+        duration: "04-05 Hrs"
     },
     {
         title: "City Tour in Doha: Souq Waqif, Corniche, The Pearl, Katara",
         price: "120 USD",
         URL: "/city.avif",
         des: "Visit Doha’s iconic attractions including Souq Waqif, Katara Cultural Village, The Pearl, Corniche promenade, photo stops, expert guidance, and relaxed sightseeing experience.",
-        duration: "04 Hrs"
+        duration: "04-05 Hrs"
     },
     {
         title: "Doha Night City Tour with Pickup from Doha Airport and Hotels",
         price: "115 USD",
         URL: "/doha_night.jpg",
         des: "Experience Doha by night with illuminated landmarks, skyline views, Corniche drive, Souq Waqif atmosphere, guided commentary, hotel pickup, and smooth evening exploration.",
-        duration: "03 Hrs"
+        duration: "04-05 Hrs"
     },
     {
         title: "Private Doha City Tour",
         price: "115 USD",
         URL: "/tour.avif",
         des: "Enjoy a private Doha city tour with personalized itinerary, flexible timing, major landmarks, cultural attractions, comfortable transport, professional guide, and exclusive sightseeing experience.",
-        duration: "04 Hrs"
+        duration: "04-05 Hrs"
     },
 ];
 
@@ -243,21 +243,21 @@ export const NORTHQATAR = [
         price: "130 USD",
         URL: "/north_doha.jpg",
         des: "Discover the rich history and heritage of North Qatar with a guided tour. Visit ancient landmarks, traditional villages, scenic Corniche views, and gain local insights while traveling comfortably through the city’s cultural highlights.",
-        duration: "04 Hrs"
+        duration: "04-05 Hrs"
     },
     {
         title: "Full-Day Adventure Tour To The North & West with Doha Pickup",
         price: "338 USD",
         URL: "/north_west.jpg",
         des: "Embark on a full-day adventure across North and West Qatar. Explore majestic desert landscapes, coastal views, and cultural sites, with professional guides, convenient Doha pickup, photo stops, and an immersive sightseeing experience.",
-        duration: "06-07 Hrs"
+        duration: "04-05 Hrs"
     },
     {
         title: "Explore the West Coast: Zekreet & Richard Serra Sculpture Tour",
         price: "115 USD",
         URL: "/zekreet.jpg",
         des: "Experience Qatar’s stunning west coast with a tour to Zekreet and the iconic Richard Serra sculptures. Enjoy dramatic desert landscapes, unique rock formations, guided exploration, and unforgettable photography opportunities.",
-        duration: "04 Hrs"
+        duration: "04-05 Hrs"
     },
 ];
 
@@ -283,7 +283,7 @@ export const COMBOTOUR = [
         price: "115 USD",
         URL: "/zekreet.jpg",
         des: "Discover North Qatar and Doha highlights, visit Zekreet sculptures, historic villages, and enjoy guided city exploration with convenient pickup and drop-off.",
-        duration: "04 Hrs"
+        duration: "04-05 Hrs"
     },
 ];
 
@@ -294,6 +294,6 @@ export const SAFARIDINNER = [
         price: "120 USD",
         URL: "/dinner.jpg",
         des: "Enjoy an evening desert adventure with dune bashing, camel rides, and sandboarding, followed by a traditional BBQ dinner under the stars with live entertainment.",
-        duration: "04 Hrs"
+        duration: "04-05 Hrs"
     },
 ];
